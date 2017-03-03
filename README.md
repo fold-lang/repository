@@ -10,7 +10,7 @@ All standard packages for the Fold programming language are destributed with
 - [x] `pratt` – Pratt parser library used in the implementation of the language.
 - [ ] `fold` – Main package with the compiler for the language.
 - [ ] `pure` – Minimal modulear base library.
-- [ ] `elements` – Unified standard library.
+- [x] `elements` – Unified standard library.
 - [ ] `ppx_monad` – Syntax extensions for monadic computations.
 
 
