@@ -19,7 +19,7 @@ All standard packages for the Fold programming language are destributed with
 To install a Fold package first add the repository to OPAM:
 
 ```
-$ opam remote add fold https://github.com/fold-lang/repository
+$ opam remote add -k git fold https://github.com/fold-lang/repository
 ```
 
 Now `opam` can be used to install Fold packages:
