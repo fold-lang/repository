@@ -21,5 +21,7 @@ build-test: [
 depends: [
   "ocamlfind" {build}
   "sedlex"
+  "ppx_deriving"
+  "elements"
 ]
 available: [ ocaml-version >= "4.00.1" ]
