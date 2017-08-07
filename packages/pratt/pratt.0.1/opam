@@ -12,6 +12,7 @@ build-test: ["jbuilder" "runtest" "-p" name]
 depends: [
   "pure"
   "fmt"
+  "iter"
   "jbuilder" {build}
 ]
 available: [ocaml-version >= "4.02.0"]
