@@ -1,0 +1,18 @@
+opam-version: "1.2"
+maintainer:   "Rizo Isrof <rizo@odis.io>"
+authors:      "Rizo Isrof <rizo@odis.io>"
+license:      "ISC"
+homepage:     "https://github.com/fold-lang/pratt"
+bug-reports:  "https://github.com/fold-lang/pratt/issues"
+dev-repo:     "https://github.com/fold-lang/pratt.git"
+
+build: ["jbuilder" "build" "-p" name "-j" jobs]
+build-test: ["jbuilder" "runtest" "-p" name]
+
+depends: [
+  "pure"
+  "fmt"
+  "jbuilder" {build}
+]
+available: [ocaml-version >= "4.02.0"]
+
