@@ -1,0 +1,15 @@
+opam-version: "1.2"
+maintainer:   "Rizo Isrof <rizo@odis.io>"
+authors:      "Rizo Isrof <rizo@odis.io>"
+license:      "ISC"
+homepage:     "https://github.com/rizo/iter"
+bug-reports:  "https://github.com/rizo/iter/issues"
+dev-repo:     "https://github.com/rizo/iter.git"
+
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+install: [make "install"]
+available: [ocaml-version >= "4.02.0"]
+
