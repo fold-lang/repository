@@ -1,0 +1,16 @@
+Pure
+
+A small and modular base library for OCaml.
+
+## Goals
+
+**Extensibility**
+
+Pure is designed to be easily extensible by external libraries. A set of fundamental primitives are included and are thought to be extended by concrete implementations.
+
+**Composability**
+
+The central focus of the library is the creation and promotion of a shared language for expressing concepts, behaviours and invariants. The same vocabulary is used across all the modules to ensure a composable and predictable API.
+
+For example there is small `Int` module which implements the following interfaces: _Bounded_, _Comparable_, _Default_, _Enumerable_, _Equatable_, _Hashable_, _Numeric_, _Parsable_ and _Printable_.
+
