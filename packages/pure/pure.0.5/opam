@@ -6,7 +6,6 @@ license:      "ISC"
 homepage:     "https://github.com/rizo/pure"
 bug-reports:  "https://github.com/rizo/pure/issues"
 dev-repo:     "https://github.com/rizo/pure.git"
-homepage:     "http://odis.io/pure"
 doc:          "http://odis.io/pure"
 
 build: ["jbuilder" "build" "-p" name "-j" jobs]
