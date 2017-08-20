@@ -1,0 +1,23 @@
+opam-version: "2.0"
+version:      "0.5.0"
+maintainer:   "Rizo Isrof <rizo@odis.io>"
+authors:      "Rizo Isrof <rizo@odis.io>"
+license:      "ISC"
+homepage:     "https://github.com/rizo/pure"
+bug-reports:  "https://github.com/rizo/pure/issues"
+dev-repo:     "https://github.com/rizo/pure.git"
+homepage:     "http://odis.io/pure"
+doc:          "http://odis.io/pure"
+
+build: ["jbuilder" "build" "-p" name "-j" jobs]
+
+depends: [
+  "ocaml" {>= "4.01.0"}
+  "jbuilder" {build}
+]
+
+synopsis: "Pure is a small and modular base library for OCaml"
+url {
+  src: "https://github.com/rizo/pure/archive/0.5.0.tar.gz"
+  checksum: "md5=df6d677e2a10e92c4f1b70ea38a5e473"
+}
