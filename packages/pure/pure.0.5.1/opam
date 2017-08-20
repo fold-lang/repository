@@ -8,7 +8,7 @@ dev-repo:     "https://github.com/rizo/pure.git"
 license:      "ISC"
 
 available: [ocaml-version >= "4.01.0"]
-build: ["jbuilder" "build" "-p" name "-j" jobs]
+build: ["make" "build"]
 depends: [
   "jbuilder" {build}
 ]
